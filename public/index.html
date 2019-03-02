@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>THREE.js Solar System</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+  <body>
+      <script src="three.min.js"></script>
+      <script src="inflate.min.js"></script>
+      <script src="FBXLoader.js"></script>
+      <script src="OrbitControls.js"></script>
+      <script src="Detector.js"></script>
+      <script src="space.js"></script>
+      <script>
+              document.addEventListener("DOMContentLoaded", function(){
+          const game = new Game();
+          window.game = game;//For debugging only
+        });
+      </script>
+    </body>
+</html>
